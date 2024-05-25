@@ -1,0 +1,226 @@
+
+/*genneral css*/
+
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #070505;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+
+/*header*/
+#banner{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+ /*nav-bar*/
+nav{ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px ;
+}
+ nav >:hover{
+  background-color: aqua;
+  color: aliceblue;
+ }
+.avt{
+  border-radius: 50%;
+  border: 5px solid grey; 
+  border-color: white;
+  width: 14%; height: 22%;
+  position: absolute ;
+  
+}
+
+ .title1{
+  font-size: 22px;
+ }
+ .sub-title1{
+  color:rgb(120, 125, 125)
+ }
+ .icon{
+  color: rgb(15, 194, 234);
+ }
+ /*end header*/
+ /*main*/
+ /*about*/
+.bg-grey {
+    background: #f7f7f7;
+}
+section > .container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 50px;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+}
+span{
+  font-weight: bold;
+}
+ul{
+  list-style: none ;
+  padding: 0%;
+}
+/*job-info*/
+section >.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-inline: 100px;
+}
+.content-box{
+  padding-inline: 20px;
+  border-style: solid;
+  border-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.title{
+  grid-column: 1/span 3;
+}
+.ic-toolbox{
+  font-size: 35px;
+}
+.ic-pencil{
+  font-size: 35px;
+}
+.ic-telescope{
+  font-size: 35px;
+}
+.ic-tools-2{
+font-size: 35px;
+}
+.ic-mic{
+  font-size: 35px;
+}
+.so-thich{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.ic-megaphone {
+  font-size: 20px;
+  color: blue;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.ic-strategy{
+  font-size: 20px;
+  color: blue;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.ic-strategy{
+  font-size: 20px;
+  color: blue;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.ic-basket{
+  font-size: 20px;
+  color: blue;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.blue{
+  background-color: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.gray{
+  background-color: #c3bdbd;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/*certificate*/
+.container3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-style:solid ;
+  border-color: #d6c08d;
+}
+/*project*/
+.container4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.project_1{
+  border-style: solid;
+  border-color: #c3bdbd;
+}
+.sub-title{
+  display: flex;
+  margin: 0px;
+  gap: 10px;
+  border-top: solid;
+  border-color: #c3bdbd;
+  padding-left: 15px;
+  padding: 10px 10px;
+}
+.time-pro{
+  padding: 2px 4px;
+  color: white;
+  background-color: rgb(87, 231, 238);
+  border-radius: 20px;
+}
+.row{
+  display: flex;
+  border-top: solid;
+  border-color: #c3bdbd;
+}
+.col-left{
+  flex: 0.25;
+}
+.col-right{
+  flex:0.75;
+}
+/*fooder*/
+.social-link{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ justify-items: center;
+ 
+}
+.icon-facebook-circled{
+  color: rgb(15, 194, 234);
+}
+.icon-linkedin-circled{
+color: rgb(15, 194, 234);
+}
+.icon-github-circled{
+color: rgb(15, 194, 234);
+}
